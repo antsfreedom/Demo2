@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	width:100%;
+	height:40px;
+	background: gray;
+	margin-top:100px;
+	overflow: hidden;
+}
+.list{
+	width:1000px;
+	height:40px;
+	margin:0 auto;
+}
+.list li{
+	float:left;
+}
+.list li a{
+	display: block;
+	color:#000;
+}
+.list span,.list i{
+	display: block;
+	padding: 0 30px;
+	line-height: 40px;
+	text-align: center;
+	font-style: normal;
+}
+
